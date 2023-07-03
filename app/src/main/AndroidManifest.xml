@@ -26,6 +26,10 @@
             android:label="Tambah Mahasiswa"
             android:exported="false" />
         <activity
+            android:name=".TampilForex"
+            android:label="Forex"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
