@@ -11,6 +11,9 @@ public class MenuActivity extends AppCompatActivity {
 
     private Button _viewmahasiswa;
 
+    private Button _tampilforex;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,5 +28,16 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        _tampilforex = findViewById(R.id.TampilForex);
+
+        _tampilforex.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), TampilForex.class);
+                startActivity(intent);
+            }
+        });
     }
+
 }
