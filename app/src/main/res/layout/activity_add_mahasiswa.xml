@@ -102,7 +102,8 @@
             android:id="@+id/jpSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/jpArray"/>
+            android:entries="@array/jpArray"
+            style="@style/spinner"/>/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -112,7 +113,8 @@
             android:id="@+id/statusNikahSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/statusNikahArray"/>
+            android:entries="@array/statusNikahArray"
+            style="@style/textView"/>/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
