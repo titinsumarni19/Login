@@ -30,6 +30,10 @@
             android:label="Forex"
             android:exported="false" />
         <activity
+            android:name=".MainActivityCuaca"
+            android:label="Cuaca"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
