@@ -13,6 +13,8 @@ public class MenuActivity extends AppCompatActivity {
 
     private Button _tampilforex;
 
+    private Button _cuaca;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,16 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), TampilForex.class);
+                startActivity(intent);
+            }
+        });
+
+        _cuaca = findViewById(R.id.MainActivityCuaca);
+
+        _cuaca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivityCuaca.class);
                 startActivity(intent);
             }
         });
