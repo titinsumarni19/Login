@@ -23,6 +23,14 @@
         android:drawableLeft="@drawable/student"
         android:text="Master Mahasiswa"
         android:id="@+id/ViewMahasiswa"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:drawableRight="@drawable/cuaca"
+        android:textColor="#fff"
+        android:text="Cuaca"
+        android:id="@+id/MainActivityCuaca"></Button>
 
 
 </GridLayout>
